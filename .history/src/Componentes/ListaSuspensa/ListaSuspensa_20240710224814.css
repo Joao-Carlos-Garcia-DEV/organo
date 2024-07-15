@@ -1,0 +1,10 @@
+.lista-suspensa {
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.lista-suspensa select

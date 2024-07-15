@@ -1,0 +1,37 @@
+.lista-suspensa label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.lista-suspensa select {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0.06);
+    width: 100%;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+
+import os 
+import pandas as pd 
+from pandas ai 
+import Agent
+ /* /* # Sample DataFrame  */
+ sales_by_country=pd.DataFrame( { 
+        "country": ["United States", "United Kingdom", "France"],
+        "revenue": [5000, 3200, 2900]
+    }
+
+) 
+
+os.environ["PANDASAI_API_KEY"]="YOUR_API_KEY"
+agent=Agent(sales_by_country) 
+agent.chat('Which are the top 5 countries by sales?')
